@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@rdfjs/data-model": "git@github.com:tpluscode/data-model.git#named-exports",
-    "component": "../rdfjs-svelte/",
+    "rdfjs-svelte": "../rdfjs-svelte/",
     "sirv-cli": "^0.4.4"
   }
 }

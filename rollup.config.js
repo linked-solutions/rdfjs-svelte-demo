@@ -4,7 +4,6 @@ import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import builtins from 'rollup-plugin-node-builtins';
-import css from "rollup-plugin-css-only";
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -27,7 +26,6 @@ export default {
 				css.write('public/build/bundle.css');
 			}
 		}),
-		css({ output: "public/build/extra.css" }),
 
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
