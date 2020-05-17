@@ -20,7 +20,7 @@
     "svelte-preprocess-sass": "^0.2.0"
   },
   "dependencies": {
-    "@rdfjs/data-model": "git@github.com:tpluscode/data-model.git#named-exports",
+    "@rdfjs/data-model": "git+https://github.com/tpluscode/data-model.git#named-exports",
     "@rdfjs/dataset": "^1.0.1",
     "rdfjs-svelte": "0.9.0",
     "sirv-cli": "^0.4.4"
