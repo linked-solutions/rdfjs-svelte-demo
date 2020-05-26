@@ -40,11 +40,6 @@
     box-sizing: border-box;
   }
 
-  hr {
-    border: none;
-    border-top: 1px solid #ffe0b2;
-    margin: 1rem 0;
-  }
   main {
     padding: 1em;
     margin: 0 auto;

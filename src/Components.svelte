@@ -1,5 +1,4 @@
 <script>
-  export let name;
   import * as Factory from "@rdfjs/data-model";
   import Dataset from "@rdfjs/dataset";
   import { SimpleLiteralEditor, HtmlEditor, 

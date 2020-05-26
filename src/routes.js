@@ -1,5 +1,5 @@
-import Entry from './entry.svelte'
-import Components from './components.svelte'
+import Entry from './Entry.svelte'
+import Components from './Components.svelte'
 
 const routes = [
   {
