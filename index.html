@@ -14,7 +14,14 @@
 		in rollup-plugin-node-builtins &gt; process-es6 0.11.6 -->
 	<script>
 		global = window;
-	</script>
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
 	<script defer src='/build/bundle.js'></script>
 </head>
 
