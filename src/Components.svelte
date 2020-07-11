@@ -66,7 +66,11 @@
 </style>
 
 <main>
+  <a href="/">&lt;- back to entry page</a>
   <h1>Demo of RDFJS-Svelte components</h1>
+  <p>
+  This page shows various components, many components are shown twice with the same variable to demonstrate reactivity.
+  </p>
   <HtmlEditor bind:value={htmlLiteral} />
   Same: <ExistingTermEditor bind:value={htmlLiteral} />
   <hr>
