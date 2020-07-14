@@ -5,6 +5,7 @@
       BlankNodeEditor, NamedNodeEditor, 
       ExistingTermEditor, TermEditor,
       QuadEditor, DatasetEditor, DatasetBrowser } from "rdfjs-svelte";
+  import {link} from 'svelte-spa-router'
 
   let literal = Factory.literal(
     "My first literal",
@@ -66,7 +67,7 @@
 </style>
 
 <main>
-  <a href="/">&lt;- back to entry page</a>
+  <a href="/" use:link>&lt;- back to entry page</a>
   <h1>Demo of RDFJS-Svelte components</h1>
   <p>
   This page shows various components, many components are shown twice with the same variable to demonstrate reactivity.

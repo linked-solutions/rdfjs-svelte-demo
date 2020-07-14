@@ -2,6 +2,7 @@
   import * as Factory from "@rdfjs/data-model";
   import Dataset from "@rdfjs/dataset";
   import * as N3 from "n3";
+  import {link} from 'svelte-spa-router'
   import {
     DatasetBrowser,
   } from "rdfjs-svelte";
@@ -79,7 +80,7 @@
     <a href="https://vuejs.org/">Vue</a>
     instead of Svelte.
   </p>
-  <p>Try out the Dataset Browser below or any component <a href="/components">here</a>.</p>
+  <p>Try out the Dataset Browser below or any component <a href="/components" use:link>here</a>.</p>
   <DatasetBrowser
     bind:value={dataset}
     subject="http://example.org/person/sheldon-cooper"
